@@ -1,0 +1,37 @@
+[26-Jun-2022 16:48:22 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 12288 bytes) in /home/baducvna/phulocphat.vn/wp-includes/widgets/class-wp-widget-text.php on line 493
+[26-Jun-2022 16:49:50 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 12288 bytes) in /home/baducvna/phulocphat.vn/wp-includes/widgets/class-wp-widget-text.php on line 493
+[26-Jun-2022 16:50:51 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 12288 bytes) in /home/baducvna/phulocphat.vn/wp-includes/widgets/class-wp-widget-text.php on line 493
+[26-Jun-2022 16:52:52 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 12288 bytes) in /home/baducvna/phulocphat.vn/wp-includes/widgets/class-wp-widget-text.php on line 493
+[26-Jun-2022 16:54:53 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 8192 bytes) in /home/baducvna/phulocphat.vn/wp-includes/widgets/class-wp-widget-recent-comments.php on line 206
+[18-Jul-2022 01:52:59 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /home/baducvna/phulocphat.vn/wp-includes/wp-db.php on line 1753
+[19-Jul-2022 03:12:29 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): Connection refused in /home/baducvna/phulocphat.vn/wp-includes/wp-db.php on line 1753
+[24-Jul-2022 12:37:06 UTC] PHP Deprecated:  File class-http.php is <strong>deprecated</strong> since version 5.9.0! Use wp-includes/class-wp-http.php instead. in /home/baducvna/phulocphat.vn/wp-includes/functions.php on line 5569
+[20-Feb-2023 12:39:31 UTC] Class 'Yoast\WP\SEO\Integrations\Admin\Social_Profiles_Helper' not found
+[20-Feb-2023 12:39:31 UTC] Argument 2 passed to Yoast\WP\SEO\Integrations\Admin\First_Time_Configuration_Notice_Integration::__construct() must be an instance of Yoast\WP\SEO\Helpers\First_Time_Configuration_Notice_Helper, instance of Yoast\WP\SEO\Helpers\Indexing_Helper given, called in /home/baducvna/phulocphat.vn/wp-content/plugins/wordpress-seo/src/generated/container.php on line 3350
+[20-Feb-2023 12:39:31 UTC] Yoast SEO attempted to load the class Yoast\WP\SEO\Integrations\Admin\Redirects_Integration but it could not be found.
+[20-Feb-2023 12:39:31 UTC] Too few arguments to function Yoast\WP\SEO\Integrations\Cleanup_Integration::__construct(), 0 passed in /home/baducvna/phulocphat.vn/wp-content/plugins/wordpress-seo/src/generated/container.php on line 3580 and exactly 3 expected
+[20-Feb-2023 12:39:31 UTC] Class 'Yoast\WP\SEO\Conditionals\Third_Party\CoAuthors_Plus_Flag_Conditional' not found
+[20-Feb-2023 12:39:31 UTC] Yoast SEO attempted to load the class Yoast\WP\SEO\Integrations\Front_End\Theme_Titles but it could not be found.
+[20-Feb-2023 12:39:31 UTC] Argument 1 passed to Yoast\WP\SEO\Conditionals\Settings_Conditional::__construct() must be an instance of Yoast\WP\SEO\Conditionals\User_Can_Manage_Wpseo_Options_Conditional, instance of Yoast\WP\SEO\Conditionals\New_Settings_Ui_Conditional given, called in /home/baducvna/phulocphat.vn/wp-content/plugins/wordpress-seo/src/generated/container.php on line 1854
+[20-Feb-2023 12:39:31 UTC] Yoast SEO attempted to load the class Yoast\WP\SEO\Integrations\Third_Party\CoAuthors_Plus but it could not be found.
+[20-Feb-2023 12:39:31 UTC] Yoast SEO attempted to load the class Yoast\WP\SEO\Integrations\Third_Party\The_Events_Calendar but it could not be found.
+[20-Feb-2023 12:40:49 UTC] Class 'Yoast\WP\SEO\Integrations\Admin\Social_Profiles_Helper' not found
+[20-Feb-2023 12:40:49 UTC] Argument 2 passed to Yoast\WP\SEO\Integrations\Admin\First_Time_Configuration_Notice_Integration::__construct() must be an instance of Yoast\WP\SEO\Helpers\First_Time_Configuration_Notice_Helper, instance of Yoast\WP\SEO\Helpers\Indexing_Helper given, called in /home/baducvna/phulocphat.vn/wp-content/plugins/wordpress-seo/src/generated/container.php on line 3350
+[20-Feb-2023 12:40:49 UTC] Yoast SEO attempted to load the class Yoast\WP\SEO\Integrations\Admin\Redirects_Integration but it could not be found.
+[20-Feb-2023 12:40:49 UTC] Too few arguments to function Yoast\WP\SEO\Integrations\Cleanup_Integration::__construct(), 0 passed in /home/baducvna/phulocphat.vn/wp-content/plugins/wordpress-seo/src/generated/container.php on line 3580 and exactly 3 expected
+[20-Feb-2023 12:40:49 UTC] Class 'Yoast\WP\SEO\Conditionals\Third_Party\CoAuthors_Plus_Flag_Conditional' not found
+[20-Feb-2023 12:40:49 UTC] Yoast SEO attempted to load the class Yoast\WP\SEO\Integrations\Front_End\Theme_Titles but it could not be found.
+[20-Feb-2023 12:40:49 UTC] Argument 1 passed to Yoast\WP\SEO\Conditionals\Settings_Conditional::__construct() must be an instance of Yoast\WP\SEO\Conditionals\User_Can_Manage_Wpseo_Options_Conditional, instance of Yoast\WP\SEO\Conditionals\New_Settings_Ui_Conditional given, called in /home/baducvna/phulocphat.vn/wp-content/plugins/wordpress-seo/src/generated/container.php on line 1854
+[20-Feb-2023 12:40:49 UTC] Yoast SEO attempted to load the class Yoast\WP\SEO\Integrations\Third_Party\CoAuthors_Plus but it could not be found.
+[20-Feb-2023 12:40:49 UTC] Yoast SEO attempted to load the class Yoast\WP\SEO\Integrations\Third_Party\The_Events_Calendar but it could not be found.
+[20-Feb-2023 14:52:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function trailingslashit() in /home/baducvna/phulocphat.vn/wp-includes/class-wp-textdomain-registry.php:103
+Stack trace:
+#0 /home/baducvna/phulocphat.vn/wp-includes/l10n.php(784): WP_Textdomain_Registry->set('default', 'vi', '/home/baducvna/...')
+#1 /home/baducvna/phulocphat.vn/wp-includes/load.php(1401): load_textdomain('default', '/home/baducvna/...', 'vi')
+#2 /home/baducvna/phulocphat.vn/wp-includes/load.php(278): wp_load_translations_early()
+#3 /home/baducvna/phulocphat.vn/wp-settings.php(74): wp_maintenance()
+#4 /home/baducvna/phulocphat.vn/wp-config.php(164): require_once('/home/baducvna/...')
+#5 /home/baducvna/phulocphat.vn/wp-load.php(50): require_once('/home/baducvna/...')
+#6 /home/baducvna/phulocphat.vn/wp-admin/admin-ajax.php(22): require_once('/home/baducvna/...')
+#7 {main}
+  thrown in /home/baducvna/phulocphat.vn/wp-includes/class-wp-textdomain-registry.php on line 103

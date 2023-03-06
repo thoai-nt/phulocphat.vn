@@ -1,0 +1,16 @@
+2023-02-20T14:52:43+00:00 CRITICAL Uncaught Error: Class 'Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\TourInAppMarketplace' not found in /home/baducvna/phulocphat.vn/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskLists.php:226
+Stack trace:
+#0 /home/baducvna/phulocphat.vn/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskLists.php(73): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskLists::init_default_lists()
+#1 /home/baducvna/phulocphat.vn/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Init.php(36): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskLists::init()
+#2 /home/baducvna/phulocphat.vn/wp-content/plugins/woocommerce/src/Admin/Features/Features.php(141): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Init->__construct()
+#3 /home/baducvna/phulocphat.vn/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Admin\Features\Features::load_features('')
+#4 /home/baducvna/phulocphat.vn/wp-includes/class-wp-hook.php(332): WP_Hook->apply_f in /home/baducvna/phulocphat.vn/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskLists.php on line 226
+
+2023-02-20T14:53:01+00:00 CRITICAL Uncaught Error: Class 'Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\TourInAppMarketplace' not found in /home/baducvna/phulocphat.vn/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskLists.php:226
+Stack trace:
+#0 /home/baducvna/phulocphat.vn/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskLists.php(73): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskLists::init_default_lists()
+#1 /home/baducvna/phulocphat.vn/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Init.php(36): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskLists::init()
+#2 /home/baducvna/phulocphat.vn/wp-content/plugins/woocommerce/src/Admin/Features/Features.php(141): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Init->__construct()
+#3 /home/baducvna/phulocphat.vn/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Admin\Features\Features::load_features('')
+#4 /home/baducvna/phulocphat.vn/wp-includes/class-wp-hook.php(332): WP_Hook->apply_f in /home/baducvna/phulocphat.vn/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskLists.php on line 226
+

@@ -1,0 +1,524 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 09:30:50
+* VERSION: 1.3.28
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.2.10                                |7.2.34
+OS__________________: Linux                                 |Linux
+CREATED_____________: 2020-05-20 18:10:10
+WP VERSION__________: 5.3.3
+DUP VERSION_________: 1.3.28
+DB__________________: 10.1.35
+DB TABLES___________: 34
+DB ROWS_____________: 3,072
+DB FILE SIZE________: 4.58MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.2.34 | SAPI: fpm-fcgi
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: nginx/1.18.0
+DOC ROOT____________: "/vietec/domains/phulocphat.vn/public_html"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://phulocphat.vn/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "manual"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "21_05_2020_phulocphat_8d3244f17f50d89a9267_20200520181010_archive.zip"
+
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+** PACKAGE EXTRACTION IS IN MANUAL MODE ** 
+
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 09:30:57 - RUNTIME: 6.6431 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 09:49:58
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.6.50 -- Build Server: 10.1.35
+FILE SIZE:	dup-database__8d3244f-20181010.sql (1.63MB)
+TIMEOUT:	5000
+MAXPACK:	1073741824
+SQLMODE:	NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/vietec/domains/phulocphat.vn/public_html/dup-installer/dup-installer-data__8d3244f-20181010.sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [5.6.50] is less than the build version [10.1.35].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+[PHP ERR][WARN] MSG:count(): Parameter must be an array or an object that implements Countable [CODE:2|FILE:/vietec/domains/phulocphat.vn/public_html/dup-installer/ctrls/ctrl.s2.dbinstall.php|LINE:386]
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	3049
+
+ntt_commentmeta: (0)
+ntt_comments: (26)
+ntt_duplicator_packages: (0)
+ntt_links: (0)
+ntt_options: (303)
+ntt_postmeta: (1311)
+ntt_posts: (499)
+ntt_social_users: (0)
+ntt_term_relationships: (126)
+ntt_term_taxonomy: (79)
+ntt_termmeta: (146)
+ntt_terms: (79)
+ntt_usermeta: (64)
+ntt_users: (1)
+ntt_wc_download_log: (0)
+ntt_wc_product_meta_lookup: (43)
+ntt_wc_tax_rate_classes: (2)
+ntt_wc_webhooks: (0)
+ntt_woocommerce_api_keys: (0)
+ntt_woocommerce_attribute_taxonomies: (0)
+ntt_woocommerce_downloadable_product_permissions: (0)
+ntt_woocommerce_log: (0)
+ntt_woocommerce_order_itemmeta: (0)
+ntt_woocommerce_order_items: (0)
+ntt_woocommerce_payment_tokenmeta: (0)
+ntt_woocommerce_payment_tokens: (0)
+ntt_woocommerce_sessions: (1)
+ntt_woocommerce_shipping_zone_locations: (0)
+ntt_woocommerce_shipping_zone_methods: (0)
+ntt_woocommerce_shipping_zones: (0)
+ntt_woocommerce_tax_rate_locations: (0)
+ntt_woocommerce_tax_rates: (0)
+ntt_yoast_seo_links: (66)
+ntt_yoast_seo_meta: (125)
+Removed '141' cache/transient rows
+
+INSERT DATA RUNTIME: 30.7211 sec.
+STEP-2 COMPLETE @ 09:50:29 - RUNTIME: 30.7323 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 09:54:48
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Công Ty TNHH Kinh Doanh Dịch Vụ Phú Lộc Phát"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/thoain/domains/phulocphat.vn/public_html"
+path_new______________: "/vietec/domains/phulocphat.vn/public_html"
+siteurl_______________: "http://phulocphat.vn"
+url_old_______________: "http://phulocphat.vn"
+url_new_______________: "http://phulocphat.vn"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbhost________________: "103.28.37.52"
+dbuser________________: "phulocphat"
+dbname________________: "phulocphat"
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "ntt_commentmeta"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ntt_comments"____________________________________[ROWS:    26][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/thoain/domains/phulocphat.vn/public_html" ==> "/vietec/domains/phulocphat.vn/public_html"
+	SEARCH  2:"\/home\/thoain\/domains\/phulocphat.vn\/public_html" => "\/vietec\/domains\/phulocphat.vn\/public_html"
+	SEARCH  3:"%2Fhome%2Fthoain%2Fdomains%2Fphulocphat.vn%2Fpublic_html" => "%2Fvietec%2Fdomains%2Fphulocphat.vn%2Fpublic_html"
+	SEARCH  4:"\home\thoain\domains\phulocphat.vn\public_html" ==> "/vietec/domains/phulocphat.vn/public_html"
+	SEARCH  5:"\\home\\thoain\\domains\\phulocphat.vn\\public_html" => "\/vietec\/domains\/phulocphat.vn\/public_html"
+	SEARCH  6:"%5Chome%5Cthoain%5Cdomains%5Cphulocphat.vn%5Cpublic_html" => "%2Fvietec%2Fdomains%2Fphulocphat.vn%2Fpublic_html"
+	SEARCH  7:"//www.phulocphat.vn" =============================> "//phulocphat.vn"
+	SEARCH  8:"\/\/www.phulocphat.vn" ===========================> "\/\/phulocphat.vn"
+	SEARCH  9:"%2F%2Fwww.phulocphat.vn" =========================> "%2F%2Fphulocphat.vn"
+	SEARCH 10:"https://phulocphat.vn" ===========================> "http://phulocphat.vn"
+	SEARCH 11:"https:\/\/phulocphat.vn" =========================> "http:\/\/phulocphat.vn"
+	SEARCH 12:"https%3A%2F%2Fphulocphat.vn" =====================> "http%3A%2F%2Fphulocphat.vn"
+
+EVALUATE TABLE: "ntt_duplicator_packages"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ntt_links"_______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ntt_options"_____________________________________[ROWS:   303][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/thoain/domains/phulocphat.vn/public_html" ==> "/vietec/domains/phulocphat.vn/public_html"
+	SEARCH  2:"\/home\/thoain\/domains\/phulocphat.vn\/public_html" => "\/vietec\/domains\/phulocphat.vn\/public_html"
+	SEARCH  3:"%2Fhome%2Fthoain%2Fdomains%2Fphulocphat.vn%2Fpublic_html" => "%2Fvietec%2Fdomains%2Fphulocphat.vn%2Fpublic_html"
+	SEARCH  4:"\home\thoain\domains\phulocphat.vn\public_html" ==> "/vietec/domains/phulocphat.vn/public_html"
+	SEARCH  5:"\\home\\thoain\\domains\\phulocphat.vn\\public_html" => "\/vietec\/domains\/phulocphat.vn\/public_html"
+	SEARCH  6:"%5Chome%5Cthoain%5Cdomains%5Cphulocphat.vn%5Cpublic_html" => "%2Fvietec%2Fdomains%2Fphulocphat.vn%2Fpublic_html"
+	SEARCH  7:"//www.phulocphat.vn" =============================> "//phulocphat.vn"
+	SEARCH  8:"\/\/www.phulocphat.vn" ===========================> "\/\/phulocphat.vn"
+	SEARCH  9:"%2F%2Fwww.phulocphat.vn" =========================> "%2F%2Fphulocphat.vn"
+	SEARCH 10:"https://phulocphat.vn" ===========================> "http://phulocphat.vn"
+	SEARCH 11:"https:\/\/phulocphat.vn" =========================> "http:\/\/phulocphat.vn"
+	SEARCH 12:"https%3A%2F%2Fphulocphat.vn" =====================> "http%3A%2F%2Fphulocphat.vn"
+
+EVALUATE TABLE: "ntt_postmeta"____________________________________[ROWS:  1311][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/thoain/domains/phulocphat.vn/public_html" ==> "/vietec/domains/phulocphat.vn/public_html"
+	SEARCH  2:"\/home\/thoain\/domains\/phulocphat.vn\/public_html" => "\/vietec\/domains\/phulocphat.vn\/public_html"
+	SEARCH  3:"%2Fhome%2Fthoain%2Fdomains%2Fphulocphat.vn%2Fpublic_html" => "%2Fvietec%2Fdomains%2Fphulocphat.vn%2Fpublic_html"
+	SEARCH  4:"\home\thoain\domains\phulocphat.vn\public_html" ==> "/vietec/domains/phulocphat.vn/public_html"
+	SEARCH  5:"\\home\\thoain\\domains\\phulocphat.vn\\public_html" => "\/vietec\/domains\/phulocphat.vn\/public_html"
+	SEARCH  6:"%5Chome%5Cthoain%5Cdomains%5Cphulocphat.vn%5Cpublic_html" => "%2Fvietec%2Fdomains%2Fphulocphat.vn%2Fpublic_html"
+	SEARCH  7:"//www.phulocphat.vn" =============================> "//phulocphat.vn"
+	SEARCH  8:"\/\/www.phulocphat.vn" ===========================> "\/\/phulocphat.vn"
+	SEARCH  9:"%2F%2Fwww.phulocphat.vn" =========================> "%2F%2Fphulocphat.vn"
+	SEARCH 10:"https://phulocphat.vn" ===========================> "http://phulocphat.vn"
+	SEARCH 11:"https:\/\/phulocphat.vn" =========================> "http:\/\/phulocphat.vn"
+	SEARCH 12:"https%3A%2F%2Fphulocphat.vn" =====================> "http%3A%2F%2Fphulocphat.vn"
+
+EVALUATE TABLE: "ntt_posts"_______________________________________[ROWS:   499][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/thoain/domains/phulocphat.vn/public_html" ==> "/vietec/domains/phulocphat.vn/public_html"
+	SEARCH  2:"\/home\/thoain\/domains\/phulocphat.vn\/public_html" => "\/vietec\/domains\/phulocphat.vn\/public_html"
+	SEARCH  3:"%2Fhome%2Fthoain%2Fdomains%2Fphulocphat.vn%2Fpublic_html" => "%2Fvietec%2Fdomains%2Fphulocphat.vn%2Fpublic_html"
+	SEARCH  4:"\home\thoain\domains\phulocphat.vn\public_html" ==> "/vietec/domains/phulocphat.vn/public_html"
+	SEARCH  5:"\\home\\thoain\\domains\\phulocphat.vn\\public_html" => "\/vietec\/domains\/phulocphat.vn\/public_html"
+	SEARCH  6:"%5Chome%5Cthoain%5Cdomains%5Cphulocphat.vn%5Cpublic_html" => "%2Fvietec%2Fdomains%2Fphulocphat.vn%2Fpublic_html"
+	SEARCH  7:"//www.phulocphat.vn" =============================> "//phulocphat.vn"
+	SEARCH  8:"\/\/www.phulocphat.vn" ===========================> "\/\/phulocphat.vn"
+	SEARCH  9:"%2F%2Fwww.phulocphat.vn" =========================> "%2F%2Fphulocphat.vn"
+	SEARCH 10:"https://phulocphat.vn" ===========================> "http://phulocphat.vn"
+	SEARCH 11:"https:\/\/phulocphat.vn" =========================> "http:\/\/phulocphat.vn"
+	SEARCH 12:"https%3A%2F%2Fphulocphat.vn" =====================> "http%3A%2F%2Fphulocphat.vn"
+
+EVALUATE TABLE: "ntt_social_users"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ntt_term_relationships"__________________________[ROWS:   126][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/thoain/domains/phulocphat.vn/public_html" ==> "/vietec/domains/phulocphat.vn/public_html"
+	SEARCH  2:"\/home\/thoain\/domains\/phulocphat.vn\/public_html" => "\/vietec\/domains\/phulocphat.vn\/public_html"
+	SEARCH  3:"%2Fhome%2Fthoain%2Fdomains%2Fphulocphat.vn%2Fpublic_html" => "%2Fvietec%2Fdomains%2Fphulocphat.vn%2Fpublic_html"
+	SEARCH  4:"\home\thoain\domains\phulocphat.vn\public_html" ==> "/vietec/domains/phulocphat.vn/public_html"
+	SEARCH  5:"\\home\\thoain\\domains\\phulocphat.vn\\public_html" => "\/vietec\/domains\/phulocphat.vn\/public_html"
+	SEARCH  6:"%5Chome%5Cthoain%5Cdomains%5Cphulocphat.vn%5Cpublic_html" => "%2Fvietec%2Fdomains%2Fphulocphat.vn%2Fpublic_html"
+	SEARCH  7:"//www.phulocphat.vn" =============================> "//phulocphat.vn"
+	SEARCH  8:"\/\/www.phulocphat.vn" ===========================> "\/\/phulocphat.vn"
+	SEARCH  9:"%2F%2Fwww.phulocphat.vn" =========================> "%2F%2Fphulocphat.vn"
+	SEARCH 10:"https://phulocphat.vn" ===========================> "http://phulocphat.vn"
+	SEARCH 11:"https:\/\/phulocphat.vn" =========================> "http:\/\/phulocphat.vn"
+	SEARCH 12:"https%3A%2F%2Fphulocphat.vn" =====================> "http%3A%2F%2Fphulocphat.vn"
+
+EVALUATE TABLE: "ntt_term_taxonomy"_______________________________[ROWS:    79][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/thoain/domains/phulocphat.vn/public_html" ==> "/vietec/domains/phulocphat.vn/public_html"
+	SEARCH  2:"\/home\/thoain\/domains\/phulocphat.vn\/public_html" => "\/vietec\/domains\/phulocphat.vn\/public_html"
+	SEARCH  3:"%2Fhome%2Fthoain%2Fdomains%2Fphulocphat.vn%2Fpublic_html" => "%2Fvietec%2Fdomains%2Fphulocphat.vn%2Fpublic_html"
+	SEARCH  4:"\home\thoain\domains\phulocphat.vn\public_html" ==> "/vietec/domains/phulocphat.vn/public_html"
+	SEARCH  5:"\\home\\thoain\\domains\\phulocphat.vn\\public_html" => "\/vietec\/domains\/phulocphat.vn\/public_html"
+	SEARCH  6:"%5Chome%5Cthoain%5Cdomains%5Cphulocphat.vn%5Cpublic_html" => "%2Fvietec%2Fdomains%2Fphulocphat.vn%2Fpublic_html"
+	SEARCH  7:"//www.phulocphat.vn" =============================> "//phulocphat.vn"
+	SEARCH  8:"\/\/www.phulocphat.vn" ===========================> "\/\/phulocphat.vn"
+	SEARCH  9:"%2F%2Fwww.phulocphat.vn" =========================> "%2F%2Fphulocphat.vn"
+	SEARCH 10:"https://phulocphat.vn" ===========================> "http://phulocphat.vn"
+	SEARCH 11:"https:\/\/phulocphat.vn" =========================> "http:\/\/phulocphat.vn"
+	SEARCH 12:"https%3A%2F%2Fphulocphat.vn" =====================> "http%3A%2F%2Fphulocphat.vn"
+
+EVALUATE TABLE: "ntt_termmeta"____________________________________[ROWS:   146][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/thoain/domains/phulocphat.vn/public_html" ==> "/vietec/domains/phulocphat.vn/public_html"
+	SEARCH  2:"\/home\/thoain\/domains\/phulocphat.vn\/public_html" => "\/vietec\/domains\/phulocphat.vn\/public_html"
+	SEARCH  3:"%2Fhome%2Fthoain%2Fdomains%2Fphulocphat.vn%2Fpublic_html" => "%2Fvietec%2Fdomains%2Fphulocphat.vn%2Fpublic_html"
+	SEARCH  4:"\home\thoain\domains\phulocphat.vn\public_html" ==> "/vietec/domains/phulocphat.vn/public_html"
+	SEARCH  5:"\\home\\thoain\\domains\\phulocphat.vn\\public_html" => "\/vietec\/domains\/phulocphat.vn\/public_html"
+	SEARCH  6:"%5Chome%5Cthoain%5Cdomains%5Cphulocphat.vn%5Cpublic_html" => "%2Fvietec%2Fdomains%2Fphulocphat.vn%2Fpublic_html"
+	SEARCH  7:"//www.phulocphat.vn" =============================> "//phulocphat.vn"
+	SEARCH  8:"\/\/www.phulocphat.vn" ===========================> "\/\/phulocphat.vn"
+	SEARCH  9:"%2F%2Fwww.phulocphat.vn" =========================> "%2F%2Fphulocphat.vn"
+	SEARCH 10:"https://phulocphat.vn" ===========================> "http://phulocphat.vn"
+	SEARCH 11:"https:\/\/phulocphat.vn" =========================> "http:\/\/phulocphat.vn"
+	SEARCH 12:"https%3A%2F%2Fphulocphat.vn" =====================> "http%3A%2F%2Fphulocphat.vn"
+
+EVALUATE TABLE: "ntt_terms"_______________________________________[ROWS:    79][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/thoain/domains/phulocphat.vn/public_html" ==> "/vietec/domains/phulocphat.vn/public_html"
+	SEARCH  2:"\/home\/thoain\/domains\/phulocphat.vn\/public_html" => "\/vietec\/domains\/phulocphat.vn\/public_html"
+	SEARCH  3:"%2Fhome%2Fthoain%2Fdomains%2Fphulocphat.vn%2Fpublic_html" => "%2Fvietec%2Fdomains%2Fphulocphat.vn%2Fpublic_html"
+	SEARCH  4:"\home\thoain\domains\phulocphat.vn\public_html" ==> "/vietec/domains/phulocphat.vn/public_html"
+	SEARCH  5:"\\home\\thoain\\domains\\phulocphat.vn\\public_html" => "\/vietec\/domains\/phulocphat.vn\/public_html"
+	SEARCH  6:"%5Chome%5Cthoain%5Cdomains%5Cphulocphat.vn%5Cpublic_html" => "%2Fvietec%2Fdomains%2Fphulocphat.vn%2Fpublic_html"
+	SEARCH  7:"//www.phulocphat.vn" =============================> "//phulocphat.vn"
+	SEARCH  8:"\/\/www.phulocphat.vn" ===========================> "\/\/phulocphat.vn"
+	SEARCH  9:"%2F%2Fwww.phulocphat.vn" =========================> "%2F%2Fphulocphat.vn"
+	SEARCH 10:"https://phulocphat.vn" ===========================> "http://phulocphat.vn"
+	SEARCH 11:"https:\/\/phulocphat.vn" =========================> "http:\/\/phulocphat.vn"
+	SEARCH 12:"https%3A%2F%2Fphulocphat.vn" =====================> "http%3A%2F%2Fphulocphat.vn"
+
+EVALUATE TABLE: "ntt_usermeta"____________________________________[ROWS:    64][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/thoain/domains/phulocphat.vn/public_html" ==> "/vietec/domains/phulocphat.vn/public_html"
+	SEARCH  2:"\/home\/thoain\/domains\/phulocphat.vn\/public_html" => "\/vietec\/domains\/phulocphat.vn\/public_html"
+	SEARCH  3:"%2Fhome%2Fthoain%2Fdomains%2Fphulocphat.vn%2Fpublic_html" => "%2Fvietec%2Fdomains%2Fphulocphat.vn%2Fpublic_html"
+	SEARCH  4:"\home\thoain\domains\phulocphat.vn\public_html" ==> "/vietec/domains/phulocphat.vn/public_html"
+	SEARCH  5:"\\home\\thoain\\domains\\phulocphat.vn\\public_html" => "\/vietec\/domains\/phulocphat.vn\/public_html"
+	SEARCH  6:"%5Chome%5Cthoain%5Cdomains%5Cphulocphat.vn%5Cpublic_html" => "%2Fvietec%2Fdomains%2Fphulocphat.vn%2Fpublic_html"
+	SEARCH  7:"//www.phulocphat.vn" =============================> "//phulocphat.vn"
+	SEARCH  8:"\/\/www.phulocphat.vn" ===========================> "\/\/phulocphat.vn"
+	SEARCH  9:"%2F%2Fwww.phulocphat.vn" =========================> "%2F%2Fphulocphat.vn"
+	SEARCH 10:"https://phulocphat.vn" ===========================> "http://phulocphat.vn"
+	SEARCH 11:"https:\/\/phulocphat.vn" =========================> "http:\/\/phulocphat.vn"
+	SEARCH 12:"https%3A%2F%2Fphulocphat.vn" =====================> "http%3A%2F%2Fphulocphat.vn"
+
+EVALUATE TABLE: "ntt_users"_______________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/thoain/domains/phulocphat.vn/public_html" ==> "/vietec/domains/phulocphat.vn/public_html"
+	SEARCH  2:"\/home\/thoain\/domains\/phulocphat.vn\/public_html" => "\/vietec\/domains\/phulocphat.vn\/public_html"
+	SEARCH  3:"%2Fhome%2Fthoain%2Fdomains%2Fphulocphat.vn%2Fpublic_html" => "%2Fvietec%2Fdomains%2Fphulocphat.vn%2Fpublic_html"
+	SEARCH  4:"\home\thoain\domains\phulocphat.vn\public_html" ==> "/vietec/domains/phulocphat.vn/public_html"
+	SEARCH  5:"\\home\\thoain\\domains\\phulocphat.vn\\public_html" => "\/vietec\/domains\/phulocphat.vn\/public_html"
+	SEARCH  6:"%5Chome%5Cthoain%5Cdomains%5Cphulocphat.vn%5Cpublic_html" => "%2Fvietec%2Fdomains%2Fphulocphat.vn%2Fpublic_html"
+	SEARCH  7:"//www.phulocphat.vn" =============================> "//phulocphat.vn"
+	SEARCH  8:"\/\/www.phulocphat.vn" ===========================> "\/\/phulocphat.vn"
+	SEARCH  9:"%2F%2Fwww.phulocphat.vn" =========================> "%2F%2Fphulocphat.vn"
+	SEARCH 10:"https://phulocphat.vn" ===========================> "http://phulocphat.vn"
+	SEARCH 11:"https:\/\/phulocphat.vn" =========================> "http:\/\/phulocphat.vn"
+	SEARCH 12:"https%3A%2F%2Fphulocphat.vn" =====================> "http%3A%2F%2Fphulocphat.vn"
+
+EVALUATE TABLE: "ntt_wc_download_log"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ntt_wc_product_meta_lookup"______________________[ROWS:    43][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/thoain/domains/phulocphat.vn/public_html" ==> "/vietec/domains/phulocphat.vn/public_html"
+	SEARCH  2:"\/home\/thoain\/domains\/phulocphat.vn\/public_html" => "\/vietec\/domains\/phulocphat.vn\/public_html"
+	SEARCH  3:"%2Fhome%2Fthoain%2Fdomains%2Fphulocphat.vn%2Fpublic_html" => "%2Fvietec%2Fdomains%2Fphulocphat.vn%2Fpublic_html"
+	SEARCH  4:"\home\thoain\domains\phulocphat.vn\public_html" ==> "/vietec/domains/phulocphat.vn/public_html"
+	SEARCH  5:"\\home\\thoain\\domains\\phulocphat.vn\\public_html" => "\/vietec\/domains\/phulocphat.vn\/public_html"
+	SEARCH  6:"%5Chome%5Cthoain%5Cdomains%5Cphulocphat.vn%5Cpublic_html" => "%2Fvietec%2Fdomains%2Fphulocphat.vn%2Fpublic_html"
+	SEARCH  7:"//www.phulocphat.vn" =============================> "//phulocphat.vn"
+	SEARCH  8:"\/\/www.phulocphat.vn" ===========================> "\/\/phulocphat.vn"
+	SEARCH  9:"%2F%2Fwww.phulocphat.vn" =========================> "%2F%2Fphulocphat.vn"
+	SEARCH 10:"https://phulocphat.vn" ===========================> "http://phulocphat.vn"
+	SEARCH 11:"https:\/\/phulocphat.vn" =========================> "http:\/\/phulocphat.vn"
+	SEARCH 12:"https%3A%2F%2Fphulocphat.vn" =====================> "http%3A%2F%2Fphulocphat.vn"
+
+EVALUATE TABLE: "ntt_wc_tax_rate_classes"_________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/thoain/domains/phulocphat.vn/public_html" ==> "/vietec/domains/phulocphat.vn/public_html"
+	SEARCH  2:"\/home\/thoain\/domains\/phulocphat.vn\/public_html" => "\/vietec\/domains\/phulocphat.vn\/public_html"
+	SEARCH  3:"%2Fhome%2Fthoain%2Fdomains%2Fphulocphat.vn%2Fpublic_html" => "%2Fvietec%2Fdomains%2Fphulocphat.vn%2Fpublic_html"
+	SEARCH  4:"\home\thoain\domains\phulocphat.vn\public_html" ==> "/vietec/domains/phulocphat.vn/public_html"
+	SEARCH  5:"\\home\\thoain\\domains\\phulocphat.vn\\public_html" => "\/vietec\/domains\/phulocphat.vn\/public_html"
+	SEARCH  6:"%5Chome%5Cthoain%5Cdomains%5Cphulocphat.vn%5Cpublic_html" => "%2Fvietec%2Fdomains%2Fphulocphat.vn%2Fpublic_html"
+	SEARCH  7:"//www.phulocphat.vn" =============================> "//phulocphat.vn"
+	SEARCH  8:"\/\/www.phulocphat.vn" ===========================> "\/\/phulocphat.vn"
+	SEARCH  9:"%2F%2Fwww.phulocphat.vn" =========================> "%2F%2Fphulocphat.vn"
+	SEARCH 10:"https://phulocphat.vn" ===========================> "http://phulocphat.vn"
+	SEARCH 11:"https:\/\/phulocphat.vn" =========================> "http:\/\/phulocphat.vn"
+	SEARCH 12:"https%3A%2F%2Fphulocphat.vn" =====================> "http%3A%2F%2Fphulocphat.vn"
+
+EVALUATE TABLE: "ntt_wc_webhooks"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ntt_woocommerce_api_keys"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ntt_woocommerce_attribute_taxonomies"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ntt_woocommerce_downloadable_product_permissions"[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ntt_woocommerce_log"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ntt_woocommerce_order_itemmeta"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ntt_woocommerce_order_items"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ntt_woocommerce_payment_tokenmeta"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ntt_woocommerce_payment_tokens"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ntt_woocommerce_sessions"________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/thoain/domains/phulocphat.vn/public_html" ==> "/vietec/domains/phulocphat.vn/public_html"
+	SEARCH  2:"\/home\/thoain\/domains\/phulocphat.vn\/public_html" => "\/vietec\/domains\/phulocphat.vn\/public_html"
+	SEARCH  3:"%2Fhome%2Fthoain%2Fdomains%2Fphulocphat.vn%2Fpublic_html" => "%2Fvietec%2Fdomains%2Fphulocphat.vn%2Fpublic_html"
+	SEARCH  4:"\home\thoain\domains\phulocphat.vn\public_html" ==> "/vietec/domains/phulocphat.vn/public_html"
+	SEARCH  5:"\\home\\thoain\\domains\\phulocphat.vn\\public_html" => "\/vietec\/domains\/phulocphat.vn\/public_html"
+	SEARCH  6:"%5Chome%5Cthoain%5Cdomains%5Cphulocphat.vn%5Cpublic_html" => "%2Fvietec%2Fdomains%2Fphulocphat.vn%2Fpublic_html"
+	SEARCH  7:"//www.phulocphat.vn" =============================> "//phulocphat.vn"
+	SEARCH  8:"\/\/www.phulocphat.vn" ===========================> "\/\/phulocphat.vn"
+	SEARCH  9:"%2F%2Fwww.phulocphat.vn" =========================> "%2F%2Fphulocphat.vn"
+	SEARCH 10:"https://phulocphat.vn" ===========================> "http://phulocphat.vn"
+	SEARCH 11:"https:\/\/phulocphat.vn" =========================> "http:\/\/phulocphat.vn"
+	SEARCH 12:"https%3A%2F%2Fphulocphat.vn" =====================> "http%3A%2F%2Fphulocphat.vn"
+
+EVALUATE TABLE: "ntt_woocommerce_shipping_zone_locations"_________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ntt_woocommerce_shipping_zone_methods"___________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ntt_woocommerce_shipping_zones"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ntt_woocommerce_tax_rate_locations"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ntt_woocommerce_tax_rates"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "ntt_yoast_seo_links"_____________________________[ROWS:    66][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/thoain/domains/phulocphat.vn/public_html" ==> "/vietec/domains/phulocphat.vn/public_html"
+	SEARCH  2:"\/home\/thoain\/domains\/phulocphat.vn\/public_html" => "\/vietec\/domains\/phulocphat.vn\/public_html"
+	SEARCH  3:"%2Fhome%2Fthoain%2Fdomains%2Fphulocphat.vn%2Fpublic_html" => "%2Fvietec%2Fdomains%2Fphulocphat.vn%2Fpublic_html"
+	SEARCH  4:"\home\thoain\domains\phulocphat.vn\public_html" ==> "/vietec/domains/phulocphat.vn/public_html"
+	SEARCH  5:"\\home\\thoain\\domains\\phulocphat.vn\\public_html" => "\/vietec\/domains\/phulocphat.vn\/public_html"
+	SEARCH  6:"%5Chome%5Cthoain%5Cdomains%5Cphulocphat.vn%5Cpublic_html" => "%2Fvietec%2Fdomains%2Fphulocphat.vn%2Fpublic_html"
+	SEARCH  7:"//www.phulocphat.vn" =============================> "//phulocphat.vn"
+	SEARCH  8:"\/\/www.phulocphat.vn" ===========================> "\/\/phulocphat.vn"
+	SEARCH  9:"%2F%2Fwww.phulocphat.vn" =========================> "%2F%2Fphulocphat.vn"
+	SEARCH 10:"https://phulocphat.vn" ===========================> "http://phulocphat.vn"
+	SEARCH 11:"https:\/\/phulocphat.vn" =========================> "http:\/\/phulocphat.vn"
+	SEARCH 12:"https%3A%2F%2Fphulocphat.vn" =====================> "http%3A%2F%2Fphulocphat.vn"
+
+EVALUATE TABLE: "ntt_yoast_seo_meta"______________________________[ROWS:   125][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/thoain/domains/phulocphat.vn/public_html" ==> "/vietec/domains/phulocphat.vn/public_html"
+	SEARCH  2:"\/home\/thoain\/domains\/phulocphat.vn\/public_html" => "\/vietec\/domains\/phulocphat.vn\/public_html"
+	SEARCH  3:"%2Fhome%2Fthoain%2Fdomains%2Fphulocphat.vn%2Fpublic_html" => "%2Fvietec%2Fdomains%2Fphulocphat.vn%2Fpublic_html"
+	SEARCH  4:"\home\thoain\domains\phulocphat.vn\public_html" ==> "/vietec/domains/phulocphat.vn/public_html"
+	SEARCH  5:"\\home\\thoain\\domains\\phulocphat.vn\\public_html" => "\/vietec\/domains\/phulocphat.vn\/public_html"
+	SEARCH  6:"%5Chome%5Cthoain%5Cdomains%5Cphulocphat.vn%5Cpublic_html" => "%2Fvietec%2Fdomains%2Fphulocphat.vn%2Fpublic_html"
+	SEARCH  7:"//www.phulocphat.vn" =============================> "//phulocphat.vn"
+	SEARCH  8:"\/\/www.phulocphat.vn" ===========================> "\/\/phulocphat.vn"
+	SEARCH  9:"%2F%2Fwww.phulocphat.vn" =========================> "%2F%2Fphulocphat.vn"
+	SEARCH 10:"https://phulocphat.vn" ===========================> "http://phulocphat.vn"
+	SEARCH 11:"https:\/\/phulocphat.vn" =========================> "http:\/\/phulocphat.vn"
+	SEARCH 12:"https%3A%2F%2Fphulocphat.vn" =====================> "http%3A%2F%2Fphulocphat.vn"
+--------------------------------------
+SCANNED:	Tables:34 	|	 Rows:2871 	|	 Cells:21572 
+UPDATED:	Tables:1 	|	 Rows:2 	|	 Cells:2 
+ERRORS:		0 
+RUNTIME:	0.517700 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""phulocphat""
+	UPDATE DB_USER ""phulocphat""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""103.28.37.52""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__8d3244f-20181010' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 09:54:49 - RUNTIME: 1.0607 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
